@@ -1,3 +1,4 @@
+
 package com.sena.actividad_image.ui.theme.section
 
 import androidx.compose.foundation.background
@@ -17,6 +18,7 @@ fun HeaderSection() {
     Row(
         modifier = Modifier
             .fillMaxWidth()
+            .padding(top = 10.dp)
             .background(
                 Color(0xFF252525),
                 RoundedCornerShape(10.dp)
